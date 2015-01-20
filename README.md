@@ -3,7 +3,7 @@ PopUp API for angularJs(alerts and Menu)
 
  STEP 1:
     Add this to page
-     " <script src="PATH_TO/easypopupApp.js"></script>"
+    <i> <script src="PATH_TO/easypopupApp.js"></script>"</i>
 
  STEP 2:
     Use the directive tag
