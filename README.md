@@ -7,9 +7,9 @@ PopUp API for angularJs(alerts and Menu)
 
  STEP 2:
     Use the directive tag
-     " <easy-Popper type='type*' ></easy-Popper>"
+     " <easy-Popper type='type*' ></easy-Popper>
        *where type could be 'menu' or 'alert'
-    where you want to popUp
+    where you want to popUp"
 
 
  STEP 3:
