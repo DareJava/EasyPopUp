@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ * All Codes written by FAtimehin Dare ., 
+ * contact on <fatimehindare@gmail.com> and @AmaCodeCode or on +2347061004474
+ */-->
+<html>
+    <head>
+        <style>
+            #main{
+                z-index: 0;
+                
+            }
+             #menuEventA{              
+                position: fixed;
+                
+                z-index: 90;   
+                padding: 10px;
+                margin-left: 20%;
+                width: 53%;
+                height: 200px;
+               background-color:white;
+                border-bottom-color:  #FFFFFF;
+                 -moz-border-radius-bottomright: 20px;
+                -moz-border-radius-bottomleft: 20px;
+
+               -webkit-border-bottom-right-radius: 20px;
+                -webkit-border-bottom-left-radius: 20px;
+               box-shadow: 20px 20px 50px 20px #888888;
+            }
+            #menuEvent{              
+                position: fixed;
+                 top: 0;
+                 right: 0;
+                z-index: 90;   
+                padding: 10px;
+                margin-top: 0px;
+                width: 63%;
+                height: 500px;
+               background-color:white;
+                border-bottom-color:  #FFFFFF;
+                 -moz-border-radius-bottomright: 20px;
+                -moz-border-radius-bottomleft: 20px;
+
+               -webkit-border-bottom-right-radius: 20px;
+                -webkit-border-bottom-left-radius: 20px;
+               box-shadow: 20px 20px 50px 20px #888888;
+            }
+        </style>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/angular.js/angular.js"></script>       
+       <script src="js/easypopupApp.js"></script>
+      
+    </head>
+    <body ng-app="myapp" ng-controller="PopCtrl">
+        <div id="main">TODO write content</div>
+        <button ng-click="hideA()" class="btn btn-success pull-right " style="font-size: 15px; ">
+                  <i class="icon-bolt pull-right"></i>Alerts!
+       </button> 
+        <button ng-click="hideM()" class="btn btn-success pull-right " style="font-size: 15px; ">
+                  <i class="icon-bolt pull-right"></i>Menu!
+       </button>
+        <!--<easy-pop-up user="john"></easy-pop-up>-->
+        <div id="menuEventA" ng-show="ShowEventA">
+            <span ng-click="destroyA()" class="label label-warning pull-right">
+               <i class="icon-bullseye icon-2x pull-left"></i>Close Me!
+            </span>
+            
+            <easy-Popper type='alert' info='alert'></easy-Popper>
+        </div>
+        <div id="menuEvent" ng-show="ShowEventM">
+             <span ng-click="destroyM()" class="label label-warning pull-right">
+               <i class="icon-bullseye icon-2x pull-left"></i>Close Me!
+              </span>
+            <easy-Popper type='menu' info='menu' ></easy-Popper>
+        </div>
+<!--         <userinfo user="john"></userinfo>-->
+    </body>
+</html>
