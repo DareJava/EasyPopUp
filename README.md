@@ -23,4 +23,6 @@ PopUp API for angularJs(alerts and Menu)
            ShowEventM to true/false
      i.e $scope.ShowEventM = false/true
 
+You Can Follow the examples  in the project ! Voila!! PopUp in a minute!
+
    ```  
