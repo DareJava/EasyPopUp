@@ -1,6 +1,6 @@
 # EasyPopUp
 PopUp API for angularJs(alerts and Menu)
-
+```html
  STEP 1:
     Add this to page
     <i> <script src="PATH_TO/easypopupApp.js"></script>"</i>
@@ -23,4 +23,4 @@ PopUp API for angularJs(alerts and Menu)
            ShowEventM to true/false
      i.e $scope.ShowEventM = false/true
 
-     
+   ```  
