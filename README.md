@@ -1,6 +1,7 @@
 # EasyPopUp
 PopUp API for angularJs(alerts and Menu)
 ```html
+   <meta name="description" content="Awesome Description Here">
  STEP 1:
     Add this to page
     <i> <script src="PATH_TO/easypopupApp.js"></script>"</i>
