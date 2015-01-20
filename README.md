@@ -16,7 +16,6 @@ PopUp API for angularJs(alerts and Menu)
        For isolated Scope issues, wrap the afforementioned tag in a div
        and set the ng-Show to a desired true/false value, Most times its a false
       since you dont want you alert/menu to show on bodyLoad
-     i.e
           <div id="menuEvent" ng-show="ShowEventM">
             <easy-Popper type='menu' info='menu' ></easy-Popper>
           </div>
